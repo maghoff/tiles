@@ -1,0 +1,11 @@
+[package]
+authors = ["Magnus Hoff <maghoff@gmail.com>"]
+name = "tiles"
+version = "0.1.0"
+
+[dependencies]
+gfx = "0.17.1"
+ggez = "0.4.2"
+
+[profile.dev]
+opt-level = 1
